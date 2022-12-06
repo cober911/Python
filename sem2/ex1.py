@@ -84,7 +84,7 @@ print(s1.count(s2))
 # str2 = something_input('str', 'input number string 2')
 # if len(str1) > len(str2):
 #     str1, str2 = str2, str1
-# length = len(str1)
+# length = len(str1) 
 # count = 0
 # for i in range(len(str2) - length):
 #     tmp = []
