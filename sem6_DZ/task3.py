@@ -20,7 +20,7 @@
 # print(f"Разница между мин и макс значениями дробной части: {Min_Max(input)}")
 
 input = [1.1, 1.2, 3.1, 5, 10.01]
-b = [round(input[i] - int(input[i]) , 3)  for i in range(len(input)) if input[i] - int(input[i]) !=0]
+b = [round(input[i] - int(input[i]) , 3)  for i in range(len(input)) if input[i] - int(input[i]) !=0] # --- list comprehension ---
 max_ = max(b)
 min_ = min(b)
 print (f"Разница между мин и макс значениями дробной части: {max_ - min_}")
