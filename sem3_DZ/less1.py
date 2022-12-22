@@ -2,15 +2,16 @@
 Пример:
 - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12 '''
 
-lst = input("Задайте список: ")
-input_lst = lst.replace(" ", "").split(",")
+import random
 
-def summa(lst):
-    print(lst)
-    sum = 0
-    for i in range(len(lst)):
-        if i % 2 != 0:
-          sum += int(lst[i])
-    return sum
+num = int(input("Введите размер массива: "))
+mass = []
+for i in range(num):
+    mass.append(random.randint(0, 10))
+print(mass)
+sum = 0
 
-print(f'Сумма элементов: {summa(input_lst)}')
+for i in range(1, num, 2):
+    sum = sum + mass[i]
+
+print(f'Сумма элементов с нечётным индексом равна: ', sum)
