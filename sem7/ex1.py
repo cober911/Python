@@ -1,26 +1,26 @@
 ''' Создать калькулятор для работы с рациональными и комплексными числами, организовать меню, добавив в неё систему логирования. '''
 
-# def Calc(var_1, sign, var_2, ):
-#     if sign == '*':
-#         result = var_1 * var_2
-#     elif sign == '/':
-#         result = var_1 / var_2
-#     elif sign == '+':
-#         result = var_1 + var_2
-#     elif sign == '-':
-#         result = var_1 - var_2
-#     return result
+def Calc(var_1, sign, var_2, ):
+    if sign == '*':
+        result = var_1 * var_2
+    elif sign == '/':
+        result = var_1 / var_2
+    elif sign == '+':
+        result = var_1 + var_2
+    elif sign == '-':
+        result = var_1 - var_2
+    return result
 
 
-# operations = {'+': lambda x, y: x + y,
-#               '-': lambda x, y: x - y,
-#               '*': lambda x, y: x * y,
-#               '/': lambda x, y: x / y}
+operations = {'+': lambda x, y: x + y,
+              '-': lambda x, y: x - y,
+              '*': lambda x, y: x * y,
+              '/': lambda x, y: x / y}
 
-# op = '+'
-# n1, n2 = 25, 6
+op = '+'
+n1, n2 = 25, 6
 
-# print(operations[op](n1, n2))
+print(operations[op](n1, n2))
 
 #----------------------------
 
@@ -36,15 +36,15 @@
 # b = complex('12.5+6j') + 66
 
 # print(b)  # (78+6j)
-import Calcul
+# import Calcul
 
 
-def vvod_dannih():
-    var_1 = complex(input('Введите первое число: '))
-    sign = input('Введите знак желаемого действия: ')
-    var_2 = complex(input('Введите второе число: '))
+# def vvod_dannih():
+#     var_1 = complex(input('Введите первое число: '))
+#     sign = input('Введите знак желаемого действия: ')
+#     var_2 = complex(input('Введите второе число: '))
 
-def log_vvoda():
-    data = [var_1, sign, var_2]
+# def log_vvoda():
+#     data = [var_1, sign, var_2]
 
-print(result)
+# print(result)
