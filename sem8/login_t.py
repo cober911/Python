@@ -1,6 +1,6 @@
 def enter_t():
     global personal_data_teacher
-    personal_data_teacher = {"gus_1" : "1234", "newt_2": "3213", "shmid_3": "2312", "urt_4": "312"}
+    personal_data_teacher = {"gus_1" : "1234", "newt_2": "3213"}
     
     while True:
         ent_1 = input("Введите логин: ") 

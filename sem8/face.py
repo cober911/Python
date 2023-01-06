@@ -1,4 +1,4 @@
-from student import *
+from student import stud
 from teacher import teach
 from login_st import enter_st
 from login_t import enter_t
@@ -19,4 +19,5 @@ def menu():
             print("Всего доброго! ")
             break
         else:
-            print("Введите пункт из меню: ")      
+            print("Введите пункт из меню: ")
+# menu()                            
