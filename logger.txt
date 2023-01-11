@@ -1,3 +1,8 @@
 21:08 Vladimir_Egorov 1051919031 Calculator Online
 21:09 Vladimir_Egorov 1051919031 5 -3
 21:09 Vladimir_Egorov 1051919031 Logger
+16:28 Vladimir_Egorov 1051919031 Calculator Online
+16:28 Vladimir_Egorov 1051919031 33+2j
+16:28 Vladimir_Egorov 1051919031 Calculator Online
+16:29 Vladimir_Egorov 1051919031 3-5/5*5j =
+16:29 Vladimir_Egorov 1051919031 3-5/5*5j

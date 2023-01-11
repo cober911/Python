@@ -1,5 +1,5 @@
 from telebot import TeleBot, types
-import os
+import os, os.path
  
 TOKEN = '5928076518:AAGfNT5aR393EKn9HUVStawFjm-QAYwxbMo'
  
